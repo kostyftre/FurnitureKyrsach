@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Регистрация</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="all">
+    <link href="../css/style_seller.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <main class="page">
+
+            <header class="header">
+                <div class="header__row">
+                    <div class="menu__icon icon-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu__body">
+                        <ul class="menu__list">
+                            <li><a href="/" class="menu__link">Главная</a></li>
+                            <li><a href="/registration" class="menu__link">Регистрация</a></li>
+                            <li><a href="/investment" class="menu__link">Мебель</a></li>
+                            <li><a href="/contacts" class="menu__link">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__logo"><img src="img/logo3.png" alt=""></div>
+                </div>
+            </header>
+
+
+            <div class="main-screen">
+
+                <div class="main-screen__bg ibg">
+                    <img src="img/fon.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="container1">
+
+                <H1></H1>
+                <H1>
+
+
+                    <div class="form-wrap">
+                        <div class="profile"><img
+                                src="https://html5book.ru/wp-content/uploads/2016/10/profile-image.png">
+                            <h3>Регистрация</h3>
+                        </div>
+
+
+
+
+
+                        <form method="post">
+                            <div>
+                                <label for="name">Имя</label>
+                                <input type="text" name="text" required>
+                            </div>
+                            <div class="radio">
+                                <span>Пол</span>
+                                <label>
+                                    <input type="radio" name="sex" value="мужской">мужской
+                                    <div class="radio-control male"></div>
+                                </label>
+                                <label>
+                                    <input type="radio" name="sex" value="женский">женский
+                                    <div class="radio-control female"></div>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="text" name="tag" required>
+                            </div>
+
+                            <div>
+                                <label for="country">Предполагаемый бюджет</label>
+
+                                <input type="text" name="country" required>
+
+                                <div class="select-arrow"></div>
+                            </div>
+
+                            <button type="submit">Отправить</button>
+
+                            <a href="/checkYourTicket">Проверить заявку</a>
+
+                            <p align="justify">
+                                <a href="/people">&#160;&#160;&#160;&#160;&#160;&#160; &#160; Список клиентов</a>
+                            </p>
+
+                        </form>
+                    </div>
+                </H1>
+
+
+                <!-- <h2>List of message</h2>
+                <H1>
+                    <form method="post" action="filter">
+                        <input type="text" name="filter" placeholder="Поиск по id">
+                        <button type="submit">Найти</button>
+                    </form>
+                    {{#tickets}}
+                    <div>
+                        <b>{{id}}</b>
+                        <span>{{text}}</span>
+                        <i>{{tag}}</i>
+
+                    </div>
+                    {{/tickets}}
+
+                </H1> -->
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <footer class="footer">
+                <div class='container'>
+                    <div class="footer__row">
+                        <div class="footer__column">
+                            <div class="footer__address">
+                                <p>BELIKOV Moscow</p>
+                                <p>115280 Autozavodskya Street </p>
+                                <p>kostyftre@inbox.ru</p>
+                            </div>
+                        </div>
+                        <div class="footer__column">
+                            <div class="footer__social social">
+                                <a href="https://twitter.com/_Weissberg_" class="social__link">
+                                    <img src="img/icons/social/01.png" alt="">
+                                </a>
+                                <a href="https://www.instagram.com/ilja_waissberg/" class="social__link2">
+                                    <img src="img/icons/social/insta.png" alt="">
+                                </a>
+                                <a href="https://vk.com/belikov__ilya" class="social__link2">
+                                    <img src="img/icons/social/vk.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__column">
+                            <div class="footer__dev dev">
+                                <span class="dev__text">Designed by</span>
+                                <span class="dev__icon">
+                                    <img src="img/icons/logo2.2.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
